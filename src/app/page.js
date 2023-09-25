@@ -20,8 +20,8 @@ export default function Home() {
                 <Line />
                <PopularCategories />
                <Line />
-                <PopularSubCatogires />
-                <Line />
+                {/* <PopularSubCatogires />
+                <Line /> */}
                <PopularProducts/>
                <Line />
                 {/* <ShopByIndustries />
