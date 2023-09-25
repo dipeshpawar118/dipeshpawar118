@@ -18,17 +18,17 @@ export default function Home() {
             <main className="min-h-screen flex-col items-center justify-between">
                 <Hero />
                 <Line />
-               <PopularCategories />
+               {/* <PopularCategories />
                <Line />
                 <PopularSubCatogires />
                 <Line />
                <PopularProducts/>
-               <Line />
+               <Line /> */}
                 {/* <ShopByIndustries />
                 <Line /> */}
                 <CommercialUniformSection />
                 <Line />
-                <Popular />
+                {/* <Popular /> */}
                 <AboutUs />
             </main>
         </div>
