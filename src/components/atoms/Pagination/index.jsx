@@ -1,5 +1,4 @@
 import React from 'react'
-import { Carrot } from '@/components/svgs'
 import Button from './button'
 
 const PrevButton = ({ onClick }) => {
