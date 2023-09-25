@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // This has to be removed Once we have access to Strapi
-  distDir: 'out',
   images: {
     remotePatterns: [
       {
