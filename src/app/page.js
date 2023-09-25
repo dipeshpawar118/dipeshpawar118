@@ -28,7 +28,7 @@ export default function Home() {
                 <Line /> */}
                 <CommercialUniformSection />
                 <Line />
-                {/* <Popular /> */}
+                <Popular />
                 <AboutUs />
             </main>
         </div>
