@@ -20,9 +20,9 @@ const Clp =  async () => {
                 <IndustrialUniform heading={industrialLabels.heading} description={industrialLabels.description}/>
                 <div className="h-px w-full mt-40 bg-black border-0 "></div>
                 <Categories data={data} />
-                {/* <Pagination totalPage={10} currPage={1} />
+                <Pagination totalPage={10} currPage={1} />
                 <div className="h-px w-full my-8 bg-black border-0 "></div>
-                <Popular /> */}
+                <Popular />
             </main>
         </div>
     )
