@@ -5,9 +5,9 @@ import Grid from '@/components/molecules/grid'
 import { categoriesLabels } from '@/utils/labels/categoriesLabels'
 import { getAPI } from '@/utils/api'
 
-const Categories = async () => {
+const Categories =  ({data}) => {
     const { linkText } = categoriesLabels
-    const { data } = await getAPI('categories')
+
 
     const categories = data.map((entry) => {
         return {
