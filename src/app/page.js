@@ -10,8 +10,7 @@ import PopularProducts from '@/components/organisms/popularProducts';
 import CommercialUniformSection from '@/components/uniform';
 import Line from '@/components/atoms/horizontal-line';
 
-export default async function Home  () {
-
+ const Home =  async () => {  
     const {data} = await getAPI("home-page");
 
     const popSubCatImg = data.attributes.popularSubCategories.sub_categories.data.map((entry) => {
@@ -44,3 +43,5 @@ export default async function Home  () {
         </div>
     )
 }
+
+export default  Home 
