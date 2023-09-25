@@ -33,7 +33,7 @@ const ImageSelector = ({ data, onImageClick, selectedImage }) => {
           onClick={upButtonHandler}
           backgroundColor={`${selectedImage === 0 ? "white" : "black"}`}
         >
-          <Carrot className={`text-${selectedImage === 0 ? 'black' : 'white'} text-xl`} />
+          {/* <Carrot className={`text-${selectedImage === 0 ? 'black' : 'white'} text-xl`} /> */}
         </CircularButton>
 
         <CircularButton
@@ -42,7 +42,7 @@ const ImageSelector = ({ data, onImageClick, selectedImage }) => {
             selectedImage === data.length - 1 ? "white" : "black"
           }`}
         >
-          <Carrot className={`text-${selectedImage === data.length-1 ? 'black' : 'white'} rotate-180 text-xl`} />
+          {/* <Carrot className={`text-${selectedImage === data.length-1 ? 'black' : 'white'} rotate-180 text-xl`} /> */}
         </CircularButton>
       </div>
     </div>

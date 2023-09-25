@@ -5,7 +5,7 @@ import Button from './button'
 const PrevButton = ({ onClick }) => {
     return (
         <Button caption={'back'} onClick={onClick}>
-            <Carrot className="-rotate-90 text-xl" />
+            {/* <Carrot className="-rotate-90 text-xl" /> */}
         </Button>
     )
 }
@@ -13,7 +13,7 @@ const PrevButton = ({ onClick }) => {
 const NextButton = ({ onClick }) => {
     return (
         <Button caption={'next'} onClick={onClick}>
-            <Carrot className="rotate-90 text-xl" />
+            {/* <Carrot className="rotate-90 text-xl" /> */}
         </Button>
     )
 }
