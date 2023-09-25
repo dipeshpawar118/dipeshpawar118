@@ -10,7 +10,17 @@ import PopularProducts from '@/components/organisms/popularProducts';
 import CommercialUniformSection from '@/components/uniform';
 import Line from '@/components/atoms/horizontal-line';
 
-export default function Home() {
+export default async function Home  () {
+
+    const {data} = await getAPI("home-page");
+
+    const popSubCatImg = data.attributes.popularSubCategories.sub_categories.data.map((entry) => {
+      return {
+        Id: entry.id,
+        ImgSrc: entry.attributes?.image?.data?.attributes?.url || '',
+        Name: entry.attributes?.name || '',
+      };
+    });
 
 
     return (
@@ -20,8 +30,8 @@ export default function Home() {
                 <Line />
                <PopularCategories />
                <Line />
-                {/* <PopularSubCatogires />
-                <Line /> */}
+                <PopularSubCatogires popSubCatImg={popSubCatImg} />
+                <Line />
                <PopularProducts/>
                <Line />
                 {/* <ShopByIndustries />
