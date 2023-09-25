@@ -22,11 +22,11 @@ const Categories =  ({data}) => {
             <Grid cardsPerRow={4}>
                 {categories.map(({ name, image, id }) => (
                     <div key={id} className='px-1 mt-9'>
-                        <ImageCard
+                        {/* <ImageCard
                             iconDisplay="hidden"
                             classnames={`w-full h-96 rounded-2xl shrink-0 back `}
                             productImage={image}
-                        />
+                        /> */}
                         <h5 className="mt-2 mb-2 font-semibold text-lg">{name}</h5>
                         <Link href="#">
                             <Button rounded="full" variant="primary" addStyle="py-3 px-7 text-xl ">
