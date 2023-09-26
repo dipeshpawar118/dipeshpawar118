@@ -16,7 +16,7 @@ const Clp =  async () => {
 
     return (
         <div>
-            <main className="flex min-h-screen flex-col items-center justify-between p-16">
+            <main className="flex min-h-screen flex-col items-center justify-between ">
                 <IndustrialUniform heading={industrialLabels.heading} description={industrialLabels.description}/>
                 <div className="h-px w-full mt-40 bg-black border-0 "></div>
                 <Categories data={data} />

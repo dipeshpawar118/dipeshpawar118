@@ -15,7 +15,13 @@ const Rating = (props) => {
             <div className="flex-initial text-sm font-semibold">{rating}</div>
             <div className="flex-initial  ms-5">
                 {/* <ChatIcon /> */}
-                chat Icon 
+                       <Image
+                          
+                            width={24}
+                            height={24}
+                            src="/svgs/chatIcon.svg"
+                            alt="RightArrow"
+                        />
             </div>
             <div className="flex-initial mx-2 font-medium text-xs">
                 {review} reviews

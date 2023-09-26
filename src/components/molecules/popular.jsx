@@ -7,10 +7,10 @@ import { searchLabels } from '@/utils/labels/label'
 const Popular = (props) => {
     const items = product_card.map(
         ({ id, product_name, description, product_image, product_price }) => (
-            <div className=" me-7 w-full mb-12" key={id}>
+            <div className="me-7 w-full mb-12" key={id}>
                 <ImageCard
                     iconDisplay="flex"
-                    classnames="w-[19rem] h-[26rem] rounded-2xl shrink-0 back ml-2"
+                    classnames="w-[19rem] h-[26rem] rounded-2xl shrink-0 back"
                     productImage={product_image}
                 />
                 <div>
