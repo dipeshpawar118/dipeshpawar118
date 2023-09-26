@@ -12,7 +12,7 @@ const Clp =  async () => {
 
 
    const { data } =  await getAPI('categories') ;
-    console.log(data)
+    // console.log(data)
 
     return (
         <div>

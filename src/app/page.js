@@ -9,6 +9,7 @@ import PopularCategories from '@/components/molecules/PopularCategories';
 import PopularProducts from '@/components/organisms/popularProducts';
 import CommercialUniformSection from '@/components/uniform';
 import Line from '@/components/atoms/horizontal-line';
+import { getAPI } from '@/utils/api';
 
  const Home =  async () => {  
     const {data} = await getAPI("home-page");
